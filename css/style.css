@@ -1,0 +1,193 @@
+:root {
+    --text-font: 'roboto', sans-serif;
+    --title-font: "raleway", sans-serif;
+    --accent-color-link: #2196F3;
+    --text-deskcription: #757575;
+    --text-subtitle: #212121;
+}
+
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+/* ========== HEADER ========== */
+
+.logotype {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.span1 {
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--accent-color-link);
+}
+
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--text-subtitle);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+    color: var(--accent-color-link);
+}
+
+.contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--text-deskcription);
+}
+
+.contacts-link:hover, 
+.contacts-link:focus {
+    color: var(--accent-color-link);
+}
+
+/* ========== END HEADER ========== */
+
+/* ========== HERO ========== */
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+.hero-button {
+    font-size: 16px;
+    line-height: 1.185;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    /*color: #FFFFFF;*/
+}
+
+/* ========== END HERO ========== */
+
+/* ========== FEATURE ========== */
+
+.feature-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-subtitle);
+}
+
+.deskcription {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: var(--text-deskcription);
+}
+
+/* ========== END FEATURE ========== */
+
+/* ========== WHAT WE DO ========== */
+
+.we-do-title, .our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.667;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-subtitle);
+}
+
+/* ========== END WHAT WE DO ========== */
+
+/* ========== OUR TEAM ========== */
+
+.our-team-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.267;
+    letter-spacing: 0.03em;
+    color: var(--text-subtitle);
+}
+
+.our-team-desk {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    color:var(--text-deskcription);
+}
+
+/* ========== END OUR TEAM ========== */
+
+/* ========== FOOTER ========== */
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+.address-link-map {
+    /*color: #FFFFFF;*/
+}
+
+.address-link {
+    /*color: #ffffff99;*/
+}
+/* ========== END FOOTER ========== */
+
+/* ========== HERO PORTFOLIO ========== */
+
+.buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:focus {
+    color: #FFFFFF;
+}
+
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-subtitle);
+    cursor: pointer;
+}
+
+.portfolio-desk {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--text-deskcription);
+    cursor: pointer;
+}
+
+/* ========== END HERO PORTFOLIO ========== */
+
