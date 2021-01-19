@@ -1,34 +1,46 @@
 :root {
-    --text-font: 'roboto', sans-serif;
-    --title-font: "raleway", sans-serif;
-    --accent-color-link: #2196F3;
+    --text-font: "Roboto", sans-serif;
+    --title-font: "Raleway", sans-serif;
+    --color-logotype: #2196F3;
+    --color-logo-span1: #000000;
+    --color-logo-span2: #FFFFFF;
+    --color-navigation: #2196F3;
+    --color-contacts-link: #757575;
+    --color-hover-focus: #2196F3;
     --text-deskcription: #757575;
     --text-subtitle: #212121;
+    --our-team-color: #F5F4FA;
+    --footer-color: #2F303A;
+    --color-text-buttons: #212121;
 }
 
 
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /* ========== HEADER ========== */
 
 .logotype {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-    color: #000000;
-}
-
-.span1 {
     font-family: var(--title-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: var(--accent-color-link);
+    text-decoration: none;
+    color: var(--color-logotype);
+}
+
+.span1 {
+    font-family: var(--title-font);
+    color: var(--color-logo-span1);
+}
+
+.navigation-list, .contacts-list, .feature-list,
+.we-do-list, .our-team-list, .address-list,
+.portfolio-list {
+    list-style: none;
+    padding-left: 0;
 }
 
 .navigation-list-link {
@@ -37,11 +49,12 @@ body {
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--text-subtitle);
+    text-decoration: none;
 }
 
 .navigation-list-link:hover,
 .navigation-list-link:focus {
-    color: var(--accent-color-link);
+    color: var(--color-navigation);
 }
 
 .contacts-link {
@@ -49,12 +62,13 @@ body {
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    color: var(--text-deskcription);
+    color: var(--color-contacts-link);
+    text-decoration: none;
 }
 
 .contacts-link:hover, 
 .contacts-link:focus {
-    color: var(--accent-color-link);
+    color: var(--color-hover-focus);
 }
 
 /* ========== END HEADER ========== */
@@ -68,7 +82,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /* color: #FFFFFF; */
+    /*color: #FFFFFF;*/
 }
 
 .hero-button {
@@ -78,12 +92,15 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
 }
 
 /* ========== END HERO ========== */
 
 /* ========== FEATURE ========== */
+
 
 .feature-subtitle {
     font-weight: 700;
@@ -119,6 +136,9 @@ color: var(--text-deskcription);
 
 /* ========== OUR TEAM ========== */
 
+.our-team {
+    background-color: var(--our-team-color);
+}
 .our-team-subtitle{
     font-weight: 500;
     font-size: 16px;
@@ -138,6 +158,11 @@ color: var(--text-deskcription);
 /* ========== END OUR TEAM ========== */
 
 /* ========== FOOTER ========== */
+
+.span2 {
+    color: var(--color-logo-span2);
+}
+
 .address {
     font-style: normal;
     font-weight: 400;
@@ -145,30 +170,38 @@ color: var(--text-deskcription);
     line-height: 1.714;
     letter-spacing: 0.03em;
 }
+
 .address-link-map {
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .address-link {
-    /*color: #ffffff99;*/
+    color: #ffffff99;
+    text-decoration: none;
+}
+
+.footer { 
+    background-color: var(--footer-color);
 }
 /* ========== END FOOTER ========== */
 
 /* ========== HERO PORTFOLIO ========== */
 
-.buttons {
+.buttons { 
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-    cursor: pointer;
+    color: var(--color-text-buttons);
 }
-
-.buttons:hover,
-.buttons:focus {
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover,
+.button2:focus, .button2:focus, .button3:focus, .button4:focus, .button5:focus {
+    cursor: pointer;
     color: #FFFFFF;
+    background-color: var(--color-hover-focus);
+    
 }
 
 .portfolio-subtitle {
