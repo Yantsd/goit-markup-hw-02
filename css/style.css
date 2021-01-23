@@ -54,7 +54,14 @@ img {
     color: var(--header-span-color);
 }
 
-.navigation-list-link {
+.studio-link1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+}
+.studio-link2, .studio-link3 {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
@@ -62,8 +69,8 @@ img {
     color: var(--text-subtitle-color);
 }
 
-.navigation-list-link:hover,
-.navigation-list-link:focus {
+.studio-link1:hover, .studio-link2:hover, .studio-link3:hover,
+.studio-link1:focus, .studio-link2:focus, .studio-link3:focus {
     color: var(--accent-color);
 }
 
@@ -193,7 +200,32 @@ color: var(--desk-link-color);
 }
 /* ========== END FOOTER ========== */
 
+/* ========== HEADER PORTFOLIO ========== */
+
+.portfolio-link1:hover, .portfolio-link2:hover, .portfolio-link3:hover,
+.portfolio-link1:focus, .portfolio-link2:focus, .portfolio-link3:focus {
+    color: var(--accent-color);
+}
+
+.portfolio-link2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+}
+.portfolio-link1, .portfolio-link3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--text-subtitle-color);
+}
+
+    /* ========== HEADER PORTFOLIO ========== */
+
 /* ========== HERO PORTFOLIO ========== */
+
 
 .buttons { 
     font-weight: 500;
@@ -203,8 +235,8 @@ color: var(--desk-link-color);
     color: var(--text-subtitle-color);
 }
 
-.button:hover,
-.button:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
     cursor: pointer;
     color: var(--accent-text-color);
     background-color: var(--accent-color);
